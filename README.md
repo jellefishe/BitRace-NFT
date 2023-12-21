@@ -1,5 +1,5 @@
 ```sh
-git clone https://github.com/HashLips/hashlips_art_engine.git
+git clone https://github.com/jellefishe/BitRace-NFT.git
 ```
 
 Go to the root of your folder and run this command if you have yarn installed.
