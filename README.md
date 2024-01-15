@@ -8,7 +8,7 @@ Go to the root of your folder and run this command if you have yarn installed.
 yarn install
 ```
 
-Alternatively you can run this command if you have node installed.
+Alternatively, you can run this command if you have node installed.
 
 ```sh
 npm install
@@ -79,7 +79,7 @@ You can mix up the `layerConfigurations` order on how the images are saved by se
 
 If you want to have logs to debug and see what is happening when you generate images you can set the variable `debugLogs` in the `config.js` file to true. It is false by default, so you will only see general logs.
 
-If you want to play around with different blending modes, you can add a `blend: MODE.colorBurn` field to the layersOrder object. If you need a layers to have a different opacity then you can add the `opacity: 0.7` field to the layersOrder object as well. Both the `blend: MODE.colorBurn` and `opacity: 0.7` can be addes on the same layer if you want to.
+If you want to play around with different blending modes, you can add a `blend: MODE.colorBurn` field to the layersOrder object. If you need a layer to have a different opacity then you can add the `opacity: 0.7` field to the layersOrder object as well. Both the `blend: MODE.colorBurn` and `opacity: 0.7` can be added on the same layer if you want to.
 
 Here is an example on how you can play around with both filter fields:
 
